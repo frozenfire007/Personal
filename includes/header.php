@@ -1,9 +1,16 @@
 <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
-
-      <h1><a href="index.html">Ranjan Lamichhane</a></h1>
-      <h2>I'm a passionate <span>graphic designer</span> from Kathmandu</h2>
+      <div class="type">
+        <p>Ranjan Lamichhane</p>
+        <h3>I am a 
+        <span
+           class="txt-rotate"
+           data-period="2000"
+           data-rotate='[ "Designer.", "Developer.", "Freelancer."]'></span>
+      </h3>
+        
+      </div>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -18,10 +25,10 @@
       </nav><!-- .navbar -->
 
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="twitter.com/frozenfire001" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="facebook.com/raanjann" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="instagram.com/lamichhane_ranjan" class="instagram"><i class="bi bi-instagram"></i></a>
+        <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> -->
       </div>
 
     </div>

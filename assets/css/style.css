@@ -312,6 +312,28 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   position: relative;
 }
+/*--------------------------------------------------------------
+# Name
+--------------------------------------------------------------*/
+.type p{
+  font-weight: 40px;
+  font-size: 70px;
+  color: #FFDF00;
+  font-family: sans-serif;
+  text-shadow: 2px 2px white;
+}
+.type h3{
+  margin-left: 15%;
+  font-size: 40px;
+  font-family: unset;
+  color: white;
+  /*text-shadow: 2px 2px greenyellow;*/
+}
+.type h3 span{
+  color: greenyellow;
+  /*text-shadow: 2px 2px white;*/
+  text-decoration: underline;
+}
 
 /*--------------------------------------------------------------
 # Sections General
