@@ -140,6 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header Top */
+
 #header.header-top {
   height: 80px;
   position: fixed;
@@ -153,18 +154,21 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-#header.header-top h1 {
+#header.header-top .type {
+  display:  none;
   margin-right: auto;
   font-size: 36px;
 }
 
 #header.header-top .container {
   display: flex;
-  align-items: center;
+  align-items: right;
+  image-rendering: all;
 }
 
 #header.header-top .navbar {
   margin: 0;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -345,7 +349,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.3s;
   z-index: 2;
 }
 
