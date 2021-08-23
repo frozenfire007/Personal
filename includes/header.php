@@ -1,6 +1,7 @@
 <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
+      <!-- <img src="assets/img/me.jpg" class="img-fluid"> -->
       <div class="type">
         <p>Ranjan Lamichhane</p>
         <h3>I am a 
